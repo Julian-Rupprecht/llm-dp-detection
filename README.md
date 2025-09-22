@@ -7,12 +7,13 @@ The model used for training is [roberta-base](https://huggingface.co/FacebookAI/
 1. Change directory to project root
 2. Create virtual environment
    `conda create --name <name> --clone base` or `python -m venv .env` (Windows/Linux)
-3. Activate virtual environment
+4. Activate virtual environment
    `conda activate <name>` (Conda) or `.env\Scripts\activate` (Windows), `source .env/bin/activate` (Linux)
-4. Install requirements using the following command
+5. Install requirements using the following command
 `pip install -r requirements.txt`
-5. If training is performed on a Linux-based system, change directory separators in path specifications from `\\` to `/`
-6. Run `train.py` file
+6. If training is performed on a Linux-based system, change directory separators in path specifications from `\\` to `/`
+7. Download dataset and move the file to the `datasets` folder
+8. Run `train.py` file
 
 
 ## Results
